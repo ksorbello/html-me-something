@@ -3,13 +3,19 @@ body{
 
 }
 #main-pic{
+    padding:top;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 4px solid whitesmoke;
+    border-radius:10%;
     height:40em;
-    width:60em;
+    width:65em;
 
 }
 #big-pic{
     height:25em;
-    width:25em;
+    width:35em;
 
 }
 .three-pic{
@@ -17,5 +23,33 @@ body{
     width:30em;
 }
 div {
-    background-color:8262A4;
+    margin:auto;
+    width:80em;
+    background-color:#16A085;
+    border: 8px solid whitesmoke;
+}
+.pic-caption{
+    width:5em;
+}
+h1{
+    font-size:8em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#633974;
+    text-align:center;
+}
+#main-caption{
+    text-align:center;
+}
+#big-pic{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.big-caption{
+    font-size:1em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    
+
 }
