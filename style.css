@@ -1,5 +1,11 @@
 body{
+    background-image:url("images/kelsey mt pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 90em 100em;
+    background-attachment: fixed;
     background-color:EADBDB;
+    background-position: center;
+
 
 }
 #main-pic{
