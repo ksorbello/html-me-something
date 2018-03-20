@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: 90em 100em;
     background-attachment: fixed;
-    background-color:EADBDB;
+    background-color:#E5E7E9;
     background-position: center;
 
 
@@ -13,26 +13,40 @@ body{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    border: 4px solid whitesmoke;
+    border: 4px solid #34495E;
     border-radius:10%;
     height:40em;
     width:65em;
 
 }
-#big-pic{
-    height:25em;
+#big-pic-one{
+    padding:top;
+    height:30em;
     width:35em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#big-pic-two{
+    height:30em;
+    width:25em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 .three-pic{
+    display:block;
+    margin:auto;
     height:35em;
     width:30em;
 }
 div {
     margin:auto;
     width:80em;
-    background-color:#16A085;
-    border: 8px solid whitesmoke;
+    background-color:rgba(22,160,133,0.3);
+    border: 8px solid rgba(52,73,94,0.5);
+   /* opacity: 0.5; */
 }
 .pic-caption{
     width:5em;
@@ -40,22 +54,32 @@ div {
 h1{
     font-size:8em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#633974;
+    color:#ece8ee;
     text-align:center;
+    text-shadow: 2px 2px #34495E;
 }
 #main-caption{
     text-align:center;
 }
-#big-pic{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
 
-}
 .big-caption{
     font-size:1em;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align:center;
-    
-
+}
+p{
+    font-size:1.2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color:white;
+    text-shadow:1px 1px black;
+}
+a:link{
+    color:#FADBD8;
+}
+a:hover{
+    color:white;
+}
+a:visited{
+    color:black;
 }
