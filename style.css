@@ -9,7 +9,7 @@ body{
 
 }
 #main-pic{
-    padding:top;
+    padding-top:10%;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -36,18 +36,12 @@ body{
     margin-right:auto;
 
 }
-.three-pic{
-    display:block;
-    margin:auto;
-    height:35em;
-    width:30em;
-}
 div {
     margin:auto;
     width:80em;
     background-color:rgba(22,160,133,0.3);
     border: 8px solid rgba(52,73,94,0.5);
-   /* opacity: 0.5; */
+    
 }
 .pic-caption{
     width:5em;
@@ -59,28 +53,52 @@ h1{
     text-align:center;
     text-shadow: 2px 2px #34495E;
 }
-#main-caption{
-    text-align:center;
+#podcast{
+    
 }
 
-.big-caption{
-    font-size:1em;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align:center;
-}
 p{
     font-size:1.2em;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align:center;
     color:white;
     text-shadow:1px 1px black;
+    font-weight:bold;
 }
-a:link{
+a{
     color:#FADBD8;
 }
 a:hover{
-    color:white;
-}
-a:visited{
     color:black;
+}
+
+.pic-series{
+    
+    height:15em;
+    width:15em;
+    
+}
+
+#b-and-k{
+    display:block;
+    height:20em;
+    width:15em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.list{
+    font-size:3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ece8ee;
+    text-align:left;
+    text-shadow: 2px 2px #34495E;
+}
+ul{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.2em;
+    color:#ece8ee;
+    text-align:left;
+    font-weight:bold;
+
+
 }
